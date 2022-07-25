@@ -12,6 +12,14 @@ let X = [2, 1, 6, 4, -7];
 X.reverse();
 console.log(X);
 
+// reverse
+let array=[2,1,6,4,-7];
+let reverseArray=[];
+for(var i = array.length - 1; i >= 0; i--) {
+  reverseArray.push(array[i])
+}
+console.log(reverseArray);
+
 // 3. FizzBuzz
 let array = [];
 for (i = 1; i < 135; i++) {
